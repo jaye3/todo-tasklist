@@ -1,0 +1,76 @@
+.main-container {
+  width: 675px;
+  display: block;
+  margin: auto;
+  margin-top: 75px;
+}
+
+.task-list-container {
+  margin-top: 20px;
+  width: 695px;
+  height: 500px;
+  overflow-y: auto;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+.selected-btn {
+  background-color: #c39790;
+  margin-right: 15px;
+  border-radius: 10px;
+  border: 0px;
+  width: 75px;
+  height: 30px;
+}
+
+.not-selected-btn {
+  cursor: pointer;
+  margin-right: 15px;
+  background-color: white;
+  border: solid 2px #c39790;
+  border-radius: 10px;
+  width: 75px;
+  height: 30px;
+  transition: 0.5s;
+}
+
+.not-selected-btn:hover {
+  background-color: #c39790;
+  translate: 0px -2px;
+  box-shadow: -2px 9px 19px -9px #474747;
+}
+
+.add-task-btn {
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  color: #513d3a;
+  border: 2px solid #513d3a;
+  transition: 0.5s;
+}
+
+.add-task-btn:hover {
+  color: white;
+  background-color: #513d3a;
+  box-shadow: -2px 9px 9px -9px #727272;
+}

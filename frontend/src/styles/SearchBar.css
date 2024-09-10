@@ -1,0 +1,14 @@
+.search-bar {
+    height: 15px;
+    width: 650px;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 7.5px;
+    border: 2px solid #513d3a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+}
+
+.search-bar:hover {
+    background-color: #eee9e9;
+}
